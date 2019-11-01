@@ -1,0 +1,289 @@
+ * {
+  font-family: Tahoma;
+}
+
+.container {
+  display: flex;
+}
+
+.advertisement {
+  height: 220px;
+  width: 320px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #3f3f41;
+  background: #f3f3f5;
+  line-height: 150px;
+}
+
+/* .hr {
+border-bottom: 1px solid black;
+transform: rotate(30deg);
+margin-bottom: -100px;
+width: 320px;
+height: 220px;
+} */
+.imdbLogo {
+  height: 150px;
+  width: 680px;
+  border: 1px solid black;
+  margin-left: 29px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #3f3f41;
+  line-height: 100px;
+  background: #f3f3f5;
+}
+
+.logo__Second {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  width: 680px;
+  margin: 38px 0 0 0;
+  text-align: center;
+  line-height: 44px;
+  font-size: 21px;
+  font-weight: bold;
+  color: #3f3f41;
+}
+
+.logo__item {
+  margin-right: 4px;
+  background: #a8a9ad;
+  width: 225px;
+}
+
+.container__second {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.advertisement__second {
+  height: 220px;
+  width: 320px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #3f3f41;
+  background: #f3f3f5;
+  line-height: 150px;
+  margin-left: 20px;
+}
+
+#block__second {
+  padding-top: 20px;
+}
+
+.container__next {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  border: 1px solid #88898d;
+  background: #a8a9ad;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.container__item {
+  border: 1px solid #88898d;
+  text-align: center;
+width: 268px;
+}
+
+#block__search {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  border: 1px solid black;
+  background: #d1d2d4;
+  height: 100px;
+}
+
+.container__search {
+  height: 100px;
+  color: #4b4c4e;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.container__input {
+  height: 50px;
+  width: 820px;
+  border: 1px solid black;
+  margin: 19px;
+  margin-left: 6px;
+/* margin-left: 130px; */
+  background: #ffffff;
+/* margin-bottom: 80px; */
+}
+
+.container__go {
+  height: 50px;
+  width: 50px;
+  line-height: 12px;
+  border: 1px solid black;
+  background: #ffff;
+  margin: 19px;
+  margin-left: 5px;
+  text-align: center;
+  color: #4b4c4e;
+}
+
+.advanced__search {
+  margin-top: 31px;
+  color: #4b4c4e;
+  margin-bottom: 10px;
+}
+
+.container__movies {
+  display: flex;
+  justify-content: space-between;
+/* margin-top: 40px; */
+  border: 1px solid #bbbbbb;
+}
+
+.movies__item {
+  height: 230px;
+  width: 320px;
+  border: 1px solid #bbbbbb;
+  text-align: center;
+  line-height: 230px;
+  font-size: 21px;
+  font-weight: bold;
+  background: #f3f3f5;
+  text-transform: uppercase;
+}
+
+#block__movies::before {
+  display: block;
+  margin-top: 20px;
+  width: 220px;
+  height: 38px;
+  text-align: center;
+  content: "Video Spotlight";
+  border: 1px solid #d1d2d4;
+  background: #d1d2d4;
+  color: #313234;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+#block__top {
+  margin-top: 20px;
+}
+
+.container__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box__office {
+  height: 230px;
+  width: 320px;
+  border: 1px solid black;
+  background: #d1d2d4;
+  text-align: center;
+  line-height: 210px;
+}
+
+.news {
+  height: 486px;
+  width: 660px;
+  border: 1px solid black;
+  background: #d1d2d4;
+  text-align: center;
+  line-height: 486px;
+}
+
+.photoGallery {
+  height: 230px;
+  width: 320px;
+  border: 1px solid black;
+  background: #f3f3f5;
+  text-align: center;
+  line-height: 210px;
+}
+
+/* .container__week {
+display: flex;
+justify-content: space-between;
+padding-bottom: 5px;
+border: 1px solid black;
+} */
+
+.open__item__week {
+  height: 230px;
+  width: 320px;
+  border: 1px solid black;
+  background: #d1d2d4;
+  text-align: center;
+  line-height: 210px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.open__item__birthday {
+  height: 230px;
+  width: 320px;
+  border: 1px solid black;
+  line-height: 210px;
+  font-size: 21px;
+  font-weight: bold;
+  background: #d1d2d4;
+}
+
+.container__newOn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dvd__item {
+  height: 230px;
+  width: 320px;
+  border: 1px solid black;
+  background: #d1d2d4;
+}
+
+.onNew__item {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.blu__item {
+ text-align: center;
+}
+
+.adver__item {
+  height: 230px;
+  width: 660px;
+  border: 1px solid black;
+  background: #f3f3f5;
+  text-align: center;
+  line-height: 230px;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.trivia__item {
+  height: 230px;
+  width: 320px;
+  border: 1px solid black;
+  background: #d1d2d4;
+  line-height: 230px;
+  font-size: 21px;
+  font-weight: bold;
+  text-align:center;
+}
